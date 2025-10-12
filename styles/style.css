@@ -1,1 +1,69 @@
 /* место для вашего кода */
+
+.header {
+
+}
+
+.menu {
+
+}
+
+.contacts {
+  font-family: 'Raleway';
+}
+
+.phone_number {
+  text-decoration: underline;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.cover {
+    background-image: url(/images/cover.jpg);
+}
+
+.cover_title {
+
+}
+
+.description {
+
+}
+
+.overlay {
+
+}
+
+button {
+
+}
+
+.lots {
+
+}
+
+.lot1 {
+
+}
+
+.lot2 {
+
+}
+
+.lot3 {
+
+}
+
+.about {
+
+}
+
+.about-column_left {
+
+}
+
+.about-column_right {
+
+}
