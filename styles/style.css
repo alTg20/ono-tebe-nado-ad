@@ -1,5 +1,7 @@
 /* место для вашего кода */
 
+/* Header */
+
 .header {
   display: grid;
   padding: 0 50px;
@@ -8,8 +10,6 @@
   font-size: 18px;
 }
 
-/* .header__menu {} */
-
 .header__links-list {
   display: flex;
   list-style: circle;
@@ -17,13 +17,9 @@
   flex-wrap: nowrap;
 }
 
-/* .header__links-list-item {} */
-
 .header__links-list-item_no-bullit {
   list-style: none;
 }
-
-/* .header__link {} */
 
 .header__link_active {
   text-decoration: underline;
@@ -34,8 +30,6 @@
   width: 148px;
   height: 105px;
 }
-
-/* .header__logo-image {} */
 
 .address {
   display: flex;
@@ -58,7 +52,7 @@
   text-decoration: underline;
 }
 
-/* .address_adress {} */
+/* Cover */
 
 .cover {
   display: flex;
@@ -109,9 +103,6 @@
   font-size: 22px;
 }
 
-/* .letter-spacing-extended {} */
-/* .no-letter-spacing {} */
-
 .bet-button {
   background-color: rgb(255 255 255 / 0);
   border: 1px solid white;
@@ -130,6 +121,8 @@
   z-index: -1;
   background-color: rgb(0 0 0 / 0.5);
 }
+
+/* Lots */
 
 .lots {
   margin-bottom: 120px;
@@ -196,6 +189,8 @@
   font-size: 20px;
 }
 
+/* About */
+
 .about {
   display: grid;
   grid-template-columns: min-content 1fr;
@@ -203,9 +198,6 @@
   justify-items: center;
   gap: 72px;
 }
-
-/* .logo__column {} */
-/* .about__column {} */
 
 .about__logo {
   display: flex;
@@ -236,6 +228,8 @@
   margin-right: 5px;
 }
 
+/* Gooter */
+
 .footer {
   display: grid;
   padding: 0 50px;
@@ -249,17 +243,9 @@
   margin-bottom: 82px;
 }
 
-.footer__menu {
-
-}
-
 .footer__menu-list {
   text-align: center;
   list-style: none;
-}
-
-.footer__menu-list-item {
-
 }
 
 .footer__menu-link_active {
@@ -272,9 +258,6 @@
   list-style: none;
   justify-self: end;
 }
-
-/* .footer__social-list-item {} */
-/* .footer__social-link {} */
 
 .footer__social-icon {
   width: 48px;
