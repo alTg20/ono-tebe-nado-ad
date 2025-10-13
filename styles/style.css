@@ -41,7 +41,7 @@
   flex-direction: column;
   font-style: normal;
   gap: 1px;
-  margin-top: 92px;
+  margin-top: 95px;
 }
 
 .header__address {
@@ -102,7 +102,7 @@
 }
 
 .cover__description-text {
-  word-spacing: 25px;
+  word-spacing: 20px;
   text-transform: uppercase;
   margin-right: auto;
   font-weight: normal;
@@ -238,7 +238,7 @@
 
 .footer {
   display: grid;
-  padding: 0 50px;
+  padding: 0 50px 82px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   font-size: 18px;
@@ -246,7 +246,6 @@
 
 .footer__address {
   justify-self: start;
-  margin-bottom: 82px;
 }
 
 .footer__menu-list {
