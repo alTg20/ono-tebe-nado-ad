@@ -117,13 +117,10 @@
   margin-right: auto;
   font-weight: normal;
   font-size: 22px;
-}
-
-.cover__description-text-1 {
   word-spacing: 20px;
 }
 
-.cover__description-text-2 {
+.cover__description-text-smaller_spacing {
   word-spacing: 18px;
 }
 
@@ -262,7 +259,7 @@
   line-height: 24px;
 }
 
-.about__text_1 {
+.about__text-upper {
   margin-bottom: 24px;
   margin-right: 5px;
 }
